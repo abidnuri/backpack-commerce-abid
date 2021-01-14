@@ -1,6 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+button:focus{
+    outline: none;
+    box-shadow: none;
+}
+.slider-indicator li{
+    background-color: #76C27E;
+}
 .backpack-color{
     color: #363958;
 }
