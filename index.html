@@ -15,11 +15,11 @@
 </head>
 
 <body>
-    <!-- Navbar Start -->
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg container navbar-light">
-            <a class="navbar-brand" href="#"><img src="images/logo-icon/Logo.png" alt="logo"
-                    class="img-fluid logo-img"></a>
+    <header class="bg-light py-5">
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg container navbar-light fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-icon/Logo.png" alt="logo" class="img-fluid logo-img"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
                         <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item px-4">
-                        <a class="nav-link text-dark" href="#">Product</a>
+                        <a class="nav-link text-dark" href="#casual">Product</a>
                     </li>
                     <li class="nav-item px-4">
                         <a class="nav-link text-dark" href="#">About Us</a>
@@ -42,11 +42,9 @@
                 </ul>
             </div>
         </nav>
-    </header>
-    <!-- /Navbar End -->
-    <main class="container">
+        <!-- /Navbar End -->
         <!-- Slider Start -->
-        <section id="slider" class="sliding mt-5">
+        <section id="slider" class="container mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -112,6 +110,8 @@
             </div>
         </section>
         <!-- /Slider End -->
+    </header>
+    <main class="container">
         <!-- Feature Start -->
         <section id="feature-all" class="mt-5">
             <div class="row">
@@ -348,11 +348,11 @@
                     <img src="images/logo-icon/Logo.png" alt="" class="img-fluid logo-img">
                 </div>
                 <div class="col-md-8">
-                    <small> &copy; 2020 - <a href="https://facebook.com/abid.nuri">Abid Nuri</a>, All rights
+                    <small> &copy; 2020 - <a href="https://facebook.com/abid.nuri" target="_blank">Abid Nuri</a>, All rights
                         reserved.</small>
                 </div>
                 <div class="col-md-2">
-                    <small>Back To Top <i class="fas fa-chevron-up"></i></small>
+                    <small><a href="#" class="back-top">Back To Top <i class="fas fa-chevron-up"></i></a></small>
                 </div>
             </div>
         </div>
